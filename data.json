@@ -1,0 +1,74 @@
+{
+    "authors": 
+    {
+        "author1": {
+            "name": "Colleen Hoover",
+            "birthYear": 1965,
+            "nationality": "American",
+            "books": {
+                "book1": {
+                    "title": "It Ends With Us",
+                    "publishedYear": 2016
+                },
+                "book2": {
+                    "title": "Verity",
+                    "publishedYear": 2018
+                }
+            }
+        },
+        "author2": {
+            "name": "Ali Hazelwood",
+            "birthYear": 1990,
+            "nationality": "American",
+            "books": {
+                "book1": {
+                    "title": "Love on the Brain",
+                    "publishedYear": 2021
+                },
+                "book2": {
+                    "title": "Love, Theoretically",
+                    "publishedYear": 2017
+                }
+            }
+        },
+        "author3": {
+            "name": "George Orwell",
+            "birthYear": 1903,
+            "nationality": "British",
+            "books": {
+                "book1": {
+                    "title": "1984",
+                    "publishedYear": 1949
+                },
+                "book2": {
+                    "title": "Animal Farm",
+                    "publishedYear": 1945
+                }
+            }
+            
+        },
+        "author4":{
+            "name": "Taylor Jenkins Reid",
+            "birthYear": 1983,
+            "nationality": "American",
+            "books":{
+                "book1":{
+                    "title": "The Seven Husbands of Evelyn Hugo",
+                    "publishedYear": 2021
+                },
+                
+                "book2": {
+                    "title": "Malibu Rising",
+                    "pulishedYear": 2021
+
+                }
+            }
+        }
+
+
+       
+       
+        }
+
+        
+    }

@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+  
+    <title>Authors Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id ="a">Authors Web App</h1>
+    <div>
+        <table width="40%">
+         <tr>
+            <td width="30%"> 
+                <label for="authorSearch">Search Author:</label>
+                <input type="text" id="authorSearch"> 
+                <button onclick="searchAuthorByName()">Search</button> 
+            </td>
+            
+         </tr>   
+        </table>
+    </div>
+    <div id="authorName">
+    </div>
+    <div id="searchResults">
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+    <script>
+       var firebaseConfig = {
+  apiKey: "AIzaSyAHB8s3pOX3lsl7qxRNaak7lXTOSCkidzI",
+  authDomain: "my-author-project.firebaseapp.com",
+  databaseURL: "https://my-author-project-default-rtdb.firebaseio.com/",
+  projectId: "my-author-project",
+  storageBucket: "my-author-project.appspot.com",
+  messagingSenderId: "369142979290",
+  appId: "1:369142979290:web:2336639ae50e20a96ca3e3",
+  measurementId: "G-QD8SWKG624"
+};
+   firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
